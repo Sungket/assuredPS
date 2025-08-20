@@ -1614,6 +1614,12 @@ section,
   margin: 0;
 }
 
+.testimonials .testimonial-item h5 {
+  font-size: 12px;
+  color: color-mix(in srgb, var(--default-color), transparent 20%);
+  margin: 0;
+}
+
 .testimonials .testimonial-item .stars {
   margin: 10px 0;
 }
