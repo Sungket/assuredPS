@@ -2126,10 +2126,11 @@ section,
 }
 
 .contact .contact-form {
-  background-color: var(--surface-color);
-  border-style: solid;
+  /* background-color: var(--surface-color); */
+  background-color: rgb(230, 160, 100);
+  /* border-style: solid;
   border-color: rgb(81, 132, 195);
-  border-width: 10px;
+  border-width: 10px; */
   padding: 3rem;
   border-radius: 1rem;
   height: 100%;
@@ -2145,6 +2146,7 @@ section,
 .contact .contact-form h3 {
   font-size: 2rem;
   margin-bottom: 1rem;
+  /* color: rgb(40, 70, 120); */
 }
 
 @media (max-width: 768px) {
@@ -2179,8 +2181,9 @@ section,
 }
 
 .contact .contact-form .btn {
-  background-color: var(--accent-color);
+  /* background-color: var(--accent-color); */
   color: var(--contrast-color);
+  background-color: rgb(81, 132, 195);
   padding: 1rem 2rem;
   border-radius: 2rem;
   display: inline-flex;
