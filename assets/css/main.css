@@ -1765,6 +1765,10 @@ section,
   transform: translateX(5px);
 }
 
+.services .service-card ul li {
+  font-size: 10px;
+}
+
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
