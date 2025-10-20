@@ -665,7 +665,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: var(--background-color);
-  padding: 120px 0;
+  padding: 60px 0;
   scroll-margin-top: 90px;
   overflow: clip;
 }
@@ -683,7 +683,7 @@ section,
 --------------------------------------------------------------*/
 .section-title {
   text-align: center;
-  padding-bottom: 60px;
+  padding-bottom: 10px;
   position: relative;
 }
 
@@ -1741,7 +1741,7 @@ section,
 }
 
 .services .service-card p {
-  margin-bottom: 25px;
+  margin-bottom: 5px;
   color: color-mix(in srgb, var(--default-color), transparent 25%);
   font-size: 15px;
   line-height: 1.6;
@@ -1766,7 +1766,8 @@ section,
 }
 
 .services .service-card ul li {
-  font-size: 10px;
+  color: color-mix(in srgb, var(--default-color), transparent 25%);
+  font-size: 14px;
 }
 
 /*--------------------------------------------------------------
