@@ -2048,6 +2048,11 @@ section,
 /*--------------------------------------------------------------
 # Contact Section
 --------------------------------------------------------------*/
+.contact {
+  padding-top: 120px;
+  padding-bottom: 60px;
+}
+
 .contact .info-box {
   background-color: var(--accent-color);
   color: var(--contrast-color);
