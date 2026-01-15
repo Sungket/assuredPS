@@ -32,8 +32,8 @@
     $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
     // $mail->SMTPSecure = 'tls';
     $mail->Port = 587;
-    $mail->Username = "sunj.rhymes";
-    $mail->Password = "veaz rkjd sevu ubwk";
+    $mail->Username = ""; //insert the part of the email address which is before the @ sign here
+    $mail->Password = ""; //password to the email client you are using
     $mail->SMTPOptions = array(
       'ssl' => array(
           'verify_peer' => false,
@@ -44,7 +44,7 @@
 
     //Recipients
     $mail->setFrom($email, $name);
-    $mail->addAddress("sunj.rhymes@googlemail.com");
+    $mail->addAddress(""); //insert your email address here
     $mail->addReplyTo($email);
 
     //Content
